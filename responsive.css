@@ -1,0 +1,525 @@
+/* pc */
+@media (min-width: 1024px) and (max-width: 1427px) {
+  .header-menu {
+    width: 55%;
+    justify-content: space-evenly;
+  }
+
+  .profile-about-text {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    padding: 0;
+  }
+
+  .about-text {
+    padding: 25px;
+    border-bottom: #27374d 2px solid;
+  }
+
+  .profile {
+    border: 0;
+    border-bottom: 2px solid #27374d;
+    padding: 25px;
+  }
+
+  .profile-text {
+    font-size: 25px;
+  }
+
+  .profile-img {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  #contact {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contact-form {
+    width: 100%;
+    box-sizing: border-box;
+    border-top: #27374d 2px solid;
+  }
+
+  .contact-mess {
+    width: 80%;
+    margin: 0 auto 25px 40px;
+  }
+}
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    justify-content: space-around;
+  }
+
+  .header-menu {
+    width: 60%;
+    justify-content: space-evenly;
+  }
+
+  #home-image {
+    height: 650px;
+    background-attachment: fixed;
+  }
+
+  .profile-about-text {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    padding: 0;
+  }
+
+  .about-text {
+    padding: 25px;
+    border-bottom: #27374d 2px solid;
+  }
+
+  .profile {
+    border: 0;
+    border-bottom: 2px solid #27374d;
+    padding: 25px;
+  }
+
+  .profile-text {
+    font-size: 20px;
+  }
+
+  .profile-img {
+    width: 20%;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contact-form {
+    width: 100%;
+    box-sizing: border-box;
+    border-top: #27374d 2px solid;
+  }
+
+  .contact-mess {
+    width: 80%;
+    margin: 0 auto 25px 40px;
+  }
+  .icon-contact {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
+  .social-icon {
+    font-size: 40px;
+  }
+}
+
+/* mobile large */
+@media (min-width: 425px) and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .header h1 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .header-menu {
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 10px;
+  }
+
+  #home-image {
+    height: 450px;
+    background-attachment: fixed;
+    margin-bottom: 75px;
+  }
+
+  .menu-item {
+    font-size: 15px;
+  }
+
+  #about {
+    width: 85%;
+    margin-bottom: 40px;
+  }
+
+  .profile-about-text {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    padding: 0;
+  }
+
+  .about-text {
+    padding: 10px;
+    border-bottom: #27374d 2px solid;
+  }
+
+  .about-text h3 {
+    font-size: 15px;
+  }
+
+  .profile {
+    border: 0;
+    border-bottom: 2px solid #27374d;
+    padding: 20px 15px;
+  }
+
+  .profile-text {
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  .profile-img {
+    width: 25%;
+  }
+
+  .skill-container {
+    flex-flow: column wrap;
+  }
+
+  .skill-item h3 {
+    margin-bottom: 0;
+    margin-left: 40px;
+  }
+
+  #hobbies {
+    margin-bottom: 50px;
+  }
+
+  #hobbies h1 {
+    margin-bottom: 0;
+  }
+
+  .hobbies-container {
+    flex-flow: column wrap;
+  }
+
+  .hobbies-items {
+    width: 75%;
+    margin: 30px auto;
+  }
+
+  .contact-container {
+    font-size: 5px;
+  }
+
+  #contact {
+    width: 80%;
+    flex-flow: column-reverse wrap;
+  }
+
+  .contact-mess {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: #27374d 2px solid;
+  }
+
+  .contact-container span {
+    font-size: 17px;
+  }
+
+  .contact-form {
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .icon-contact {
+    font-size: 20px;
+    margin-right: 2px;
+  }
+
+  .social-icon {
+    font-size: 35px;
+  }
+
+  
+}
+
+@media (min-width:425px) and (max-width:546px) {
+  .contact-btn{
+    width:50%;
+  }
+}
+
+/* mobile-m */
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .header {
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .header h1 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .header-menu {
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 12px;
+  }
+
+  #home-image {
+    height: 400px;
+    background-attachment: fixed;
+    margin-bottom: 75px;
+  }
+
+  .menu-item {
+    font-size: 15px;
+  }
+
+  #about {
+    width: 85%;
+    margin-bottom: 40px;
+  }
+
+  .profile-about-text {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    padding: 0;
+  }
+
+  .about-text {
+    padding: 10px;
+    border-bottom: #27374d 2px solid;
+  }
+
+  .about-text h3 {
+    font-size: 15px;
+  }
+
+  .profile {
+    border: 0;
+    border-bottom: 2px solid #27374d;
+    padding: 20px 5px;
+  }
+
+  .profile-text {
+    font-size: 13px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  .profile-img {
+    width: 25%;
+    margin-right: 10px;
+  }
+
+  .skill-container {
+    flex-flow: column wrap;
+  }
+
+  .skill-item h3 {
+    margin-bottom: 0;
+    margin-left: 40px;
+  }
+
+  #hobbies {
+    margin-bottom: 50px;
+  }
+
+  #hobbies h1 {
+    margin-bottom: 0;
+  }
+
+  .hobbies-container {
+    flex-flow: column wrap;
+  }
+
+  .hobbies-items {
+    width: 75%;
+    margin: 30px auto;
+  }
+
+  .contact-container {
+    font-size: 5px;
+  }
+
+  #contact {
+    width: 90%;
+    flex-flow: column-reverse wrap;
+  }
+
+  .contact-mess {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    border-bottom: #27374d 2px solid;
+  }
+
+  .contact-container span {
+    font-size: 17px;
+  }
+
+  .contact-form {
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .icon-contact {
+    font-size: 20px;
+    margin-right: 2px;
+  }
+
+  .social-icon {
+    font-size: 30px;
+  }
+  .contact-btn{
+    width:50%;
+  }
+}
+
+/* mobile-s */
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .header {
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .header h1 {
+    text-align: center;
+    margin: 10px 0px;
+  }
+
+  .header-menu {
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 10px;
+  }
+
+  #home-image {
+    height: 375px;
+    background-attachment: fixed;
+    margin-bottom: 75px;
+  }
+
+  .menu-item {
+    font-size: 14px;
+  }
+
+  #about {
+    width: 85%;
+    margin-bottom: 40px;
+  }
+
+  .profile-about-text {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    padding: 0;
+  }
+
+  .about-text {
+    padding: 10px;
+    border-bottom: #27374d 2px solid;
+  }
+
+  .about-text h3 {
+    font-size: 15px;
+  }
+
+  .profile {
+    border: 0;
+    border-bottom: 2px solid #27374d;
+    padding: 20px 5px;
+  }
+
+  .profile-text {
+    font-size: 11px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  .profile-img {
+    width: 25%;
+    margin-right: 10px;
+  }
+
+  .skill-container {
+    flex-flow: column wrap;
+  }
+
+  .skill-item h3 {
+    margin-bottom: 0;
+    margin-left: 40px;
+  }
+
+  #hobbies {
+    margin-bottom: 50px;
+  }
+
+  #hobbies h1 {
+    margin-bottom: 0;
+  }
+
+  .hobbies-container {
+    flex-flow: column wrap;
+  }
+
+  .hobbies-items {
+    width: 75%;
+    margin: 30px auto;
+  }
+
+  .contact-container {
+    font-size: 5px;
+  }
+
+  #contact {
+    width: 90%;
+    flex-flow: column-reverse wrap;
+  }
+
+  .contact-mess {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+    border-bottom: #27374d 2px solid;
+  }
+
+  .contact-mess h1 {
+    font-size: 27px;
+  }
+
+  .contact-container span {
+    font-size: 13px;
+  }
+
+  .contact-form {
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .icon-contact {
+    font-size: 20px;
+    margin-right: 2px;
+  }
+
+  .social-icon {
+    font-size: 30px;
+  }
+  .contact-btn{
+    width:60%;
+  }
+}

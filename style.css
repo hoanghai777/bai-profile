@@ -1,0 +1,269 @@
+* {
+  color: #dde6ed;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #27374d;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+}
+
+.header-menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-item {
+  text-decoration: none;
+  margin: 0px;
+  color: #dde6ed;
+  font-size: large;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-item::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0px;
+  background-color: #526d82;
+  transition: 0.25s;
+}
+
+.menu-item:hover::after {
+  width: 50%;
+}
+
+/* img */
+
+#home-image {
+  background-image: url("auyyyy.jpg");
+  height: 1100px;
+  width: 100%;
+  color: #dde6ed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 125px;
+}
+
+#home-image h1 {
+  color: white;
+  z-index: 10;
+}
+
+.background-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #27374d;
+  opacity: 0.5;
+}
+
+/* about */
+
+#about {
+  display: flex;
+  margin: 0 auto;
+  background-color: #526d82;
+  flex-wrap: wrap;
+  border: 10px black hidden;
+  border-radius: 15px;
+  width: 70%;
+  margin-bottom: 75px;
+}
+
+.profile-about-text {
+  padding: 0px 25px;
+  display: flex;
+  border-bottom: 2px solid #27374d;
+}
+
+.profile {
+  display: flex;
+  border-right: 2px solid #27374d;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+}
+
+.profile-text {
+  padding-left: 15px;
+}
+
+.profile-img {
+  width: 30%;
+  margin-right: 15px;
+}
+
+.about-text h1 {
+  text-align: center;
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.about-text {
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.skill {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.skill h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+/* hobbies */
+
+#hobbies {
+  margin: 0 auto 100px auto;
+}
+
+#hobbies h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.hobbies-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hobbies-items {
+  box-sizing: border-box;
+  width: 25%;
+  text-align: center;
+  background-color: #526d82;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 3px black hidden;
+  border-radius: 15px;
+}
+
+.hobbies-items img {
+  width: 65%;
+}
+
+/* projects */
+
+#projects {
+  background-image: url("auyyyy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  height: 250px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.project-cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #27374d;
+  opacity: 0.5;
+}
+
+/* contact */
+
+#contact {
+  display: flex;
+  background-color: #526d82;
+  margin: 100px auto 75px auto;
+  width: 65%;
+  border: 10px black hidden;
+  border-radius: 15px;
+  padding-top: 25px;
+}
+
+.contact-form {
+  padding-left: 40px;
+  width: 50%;
+  padding-bottom: 40px;
+
+}
+
+.form-item {
+  width: 90%;
+  box-sizing: border-box;
+  height: 35px;
+  padding: 5px;
+  margin-bottom: 25px;
+  color:black;
+}
+
+.mess-item {
+  width: 90%;
+  box-sizing: border-box;
+  height: 75px;
+  padding: 5px;
+  color:black;
+  margin-bottom: 15px;
+}
+
+.contact-mess {
+  width: 50%;
+}
+
+.contact-mess span{
+  font-size: 20px;
+}
+
+.contact-btn {
+  font-size: 25px;
+  background-color: #27374d;
+  height: 45px;
+  width:40%;
+  border: hidden 3px;
+  border-radius: 20px;
+}
+
+.contact-btn:hover{
+  background-color: #375988;
+  border: #dde6ed solid 3px;
+}
+
+.icon-contact {
+  font-size: 25px;
+  margin-right: 10px;
+  width:21px;
+}
+
+.social-icon {
+  font-size: 50px;
+}
