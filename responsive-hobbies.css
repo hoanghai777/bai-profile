@@ -1,0 +1,14 @@
+/* pc */
+@media (min-width: 1024px) and (max-width: 1480px) {
+  .header-menu {
+    width: 55%;
+    justify-content: space-evenly;
+  }
+
+  /* gaming */
+  #text {
+    width {
+      width: 80%;
+    }
+  }
+}

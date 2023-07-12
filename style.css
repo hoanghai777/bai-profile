@@ -166,8 +166,16 @@
   border-radius: 15px;
 }
 
+.hobbies-items a {
+  text-decoration: none;
+}
+
 .hobbies-items img {
   width: 65%;
+}
+
+.hobbies-items img:hover{
+  transform: scale(1.15,1.15);
 }
 
 /* projects */
