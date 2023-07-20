@@ -20,9 +20,7 @@
   .gaming {
     width: 85%;
   }
-  .gaming-container p {
-    font-size: 34px;
-  }
+
   /* coding */
   .skill {
     width: 85%;
@@ -68,11 +66,9 @@
   .gaming {
     width: 85%;
   }
-  .gaming-container p {
-    font-size: 24px;
-  }
+
   .gaming-item {
-    width: 50%;
+    width: 90%;
   }
   .gaming-item img{
     width:100%
@@ -155,14 +151,7 @@
     flex-direction: column;
     padding:0;
   }
-  .gaming-container p {
-    font-size: 18px;
-    width: 100%;
-    box-sizing: border-box;
-    border: 0;
-    padding-top: 10px;
-    border-top: #27374d 2px solid;
-  }
+
   .gaming-item{
     width:100%;
     margin-bottom:20px;
@@ -262,14 +251,7 @@
     flex-direction: column;
     padding:0;
   }
-  .gaming-container p {
-    font-size: 18px;
-    width: 100%;
-    box-sizing: border-box;
-    border: 0;
-    padding-top: 10px;
-    border-top: #27374d 2px solid;
-  }
+
   .gaming-item{
     width:100%;
     margin-bottom:20px;
@@ -372,14 +354,7 @@
     flex-direction: column;
     padding:0;
   }
-  .gaming-container p {
-    font-size: 18px;
-    width: 100%;
-    box-sizing: border-box;
-    border: 0;
-    padding-top: 10px;
-    border-top: #27374d 2px solid;
-  }
+
   .gaming-item{
     width:100%;
     margin-bottom:20px;
