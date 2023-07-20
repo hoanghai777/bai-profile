@@ -89,29 +89,31 @@
 .text-words{
   border-bottom: #27374d solid 2px;
   padding-left: 15px;
-  font-size: 25px;
+  padding-right: 15px;
 }
 
 .setup-spec{
   display:flex;
+  justify-content: space-evenly;
 }
 
 .setup{
-  width:50%;
+  width:45%;
   border-right: #27374d solid 2px;
 }
 
 .setup img{
-  width:85%;
-  padding:15px  25px;
+  width:90%;
+  padding-top:15px;
+  padding-bottom:15px;
 }
 
 .spec{
-  width:50%;
+  width:45%;
 }
 
 .spec h3{
-  font-size: 18px;
+  font-size: 21px;
 }
 
 
@@ -132,18 +134,14 @@
   justify-content: space-evenly;
 }
 
-.skill-container p{
-  width:40%;
+.skill-container h3{
   font-size: 35px;
-  border: #27374d 2px solid;
-  height:100%;
-  padding:10px;
 }
 
 .skill-item{
   padding-top: 25px;
   padding-bottom: 25px;
-  width: 60%;
+  width: 45%;
   font-size: 20px;
   text-align: center;
 }

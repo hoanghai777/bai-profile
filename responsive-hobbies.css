@@ -4,11 +4,415 @@
     width: 55%;
     justify-content: space-evenly;
   }
+  #text {
+    width: 85%;
+  }
+  .setup {
+    width: 45%;
+  }
+  .spec {
+    width: 50%;
+  }
+  .spec h3 {
+    font-size: 20px;
+  }
+  /* gaming */
+  .gaming {
+    width: 85%;
+  }
+  .gaming-container p {
+    font-size: 34px;
+  }
+  /* coding */
+  .skill {
+    width: 85%;
+  }
+  .skill-container h3 {
+    font-size: 25px;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    justify-content: space-around;
+  }
+
+  .header-menu {
+    width: 60%;
+    justify-content: space-evenly;
+  }
+
+  #home-image {
+    height: 650px;
+    background-attachment: fixed;
+  }
+
+  #text {
+    width: 85%;
+  }
+
+  .setup {
+    width: 45%;
+  }
+
+  .spec {
+    width: 50%;
+  }
+
+  .spec h3 {
+    font-size: 25px;
+  }
 
   /* gaming */
+  .gaming {
+    width: 85%;
+  }
+  .gaming-container p {
+    font-size: 24px;
+  }
+  .gaming-item {
+    width: 50%;
+  }
+  .gaming-item img{
+    width:100%
+  }
+  /* coding */
+
+  .container{
+    width:85%;
+  }
+  
+  .skill{
+    width:85%;
+  }
+  .skill-container h3{
+    font-size:25px;
+  }
+}
+
+/* mobile large */
+@media (min-width: 425px) and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .header h1 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .header-menu {
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 10px;
+  }
+
+  #home-image {
+    height: 450px;
+    background-attachment: fixed;
+    margin-bottom: 75px;
+  }
+
+  .menu-item {
+    font-size: 15px;
+  }
   #text {
-    width {
-      width: 80%;
-    }
+    width: 85%;
+  }
+  .text-words {
+    font-size: 12px;
+  }
+  .setup-spec{
+    flex-direction: column;
+  }
+  .setup {
+    width: 100%;
+    border-bottom: solid 2px #27374d;
+  }
+  .setup img{
+    padding:10px 15px
+  }
+  .spec {
+    width: 100%;
+    padding:10px 15px;
+    box-sizing: border-box;
+  }
+  .spec h3 {
+    font-size: 15px;
+  }
+  /* gaming */
+  .gaming{
+    width:85%;
+  }
+  .gaming h1{
+    font-size: 23px;
+  }
+  .gaming-container{
+    flex-direction: column;
+    padding:0;
+  }
+  .gaming-container p {
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    padding-top: 10px;
+    border-top: #27374d 2px solid;
+  }
+  .gaming-item{
+    width:100%;
+    margin-bottom:20px;
+  }
+  .gaming-item img {
+    width: 100%;
+    padding:0px 20px;
+    box-sizing: border-box;
+  }
+  /* coding */
+  .skill{
+    width:85%;
+  }
+  .skill h1{
+    font-size: 25px;
+  }
+  .skill-container h3{
+    font-size: 20px;
+  }
+  /* soccer */
+
+  .container{
+    width:85%;
+  }
+
+  .items h2{
+    font-size: 15px;
+  }
+
+  .items p{
+    font-size: 14px;
+  }
+}
+
+/* mobile-m */
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .header {
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .header h1 {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .header-menu {
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 12px;
+  }
+
+  #home-image {
+    height: 400px;
+    background-attachment: fixed;
+    margin-bottom: 75px;
+  }
+
+  .menu-item {
+    font-size: 15px;
+  }
+  #text {
+    width: 85%;
+  }
+  .text-words {
+    font-size: 15px;
+  }
+  .setup-spec{
+    flex-direction: column;
+  }
+  .setup {
+    width: 100%;
+    border-bottom: solid 2px #27374d;
+  }
+  .setup img{
+    padding:10px 15px
+  }
+  .spec {
+    width: 100%;
+    padding:10px 15px;
+    box-sizing: border-box;
+  }
+  .spec h3 {
+    font-size: 15px;
+  }
+  /* gaming */
+  .gaming{
+    width:85%;
+  }
+  .gaming h1{
+    font-size: 23px;
+  }
+  .gaming-container{
+    flex-direction: column;
+    padding:0;
+  }
+  .gaming-container p {
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    padding-top: 10px;
+    border-top: #27374d 2px solid;
+  }
+  .gaming-item{
+    width:100%;
+    margin-bottom:20px;
+  }
+  .gaming-item img {
+    width: 100%;
+    padding:0px 20px;
+    box-sizing: border-box;
+  }
+  /* coding */
+  .skill {
+    width:85%;
+  }
+  .skill h1{
+    font-size: 25px;
+  }
+  .skill-container h3{
+    font-size: 15px;
+  }
+  .skill-item{
+    padding:15px 0px;
+  }
+  /* soccer */
+
+  .container{
+    width:85%;
+  }
+
+  .items h2{
+    font-size: 15px;
+  }
+
+  .items p{
+    font-size: 14px;
+  }
+}
+
+/* mobile-s */
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .header {
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .header h1 {
+    text-align: center;
+    margin: 10px 0px;
+  }
+
+  .header-menu {
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 10px;
+  }
+
+  #home-image {
+    height: 375px;
+    background-attachment: fixed;
+    margin-bottom: 75px;
+  }
+
+  .menu-item {
+    font-size: 14px;
+  }
+  #text{
+    width:85%;
+  }
+  .text-words {
+    font-size: 15px;
+  }
+  .setup-spec{
+    flex-direction: column;
+  }
+  .setup {
+    width: 100%;
+    border-bottom: solid 2px #27374d;
+  }
+  .setup img{
+    padding:10px 15px
+  }
+  .spec {
+    width: 100%;
+    padding:10px 15px;
+    box-sizing: border-box;
+  }
+  .spec h3 {
+    font-size: 15px;
+  }
+  /* gaming */
+  .gaming{
+    width:85%;
+  }
+  .gaming h1{
+    font-size: 23px;
+  }
+  .gaming-container{
+    flex-direction: column;
+    padding:0;
+  }
+  .gaming-container p {
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    padding-top: 10px;
+    border-top: #27374d 2px solid;
+  }
+  .gaming-item{
+    width:100%;
+    margin-bottom:20px;
+  }
+  .gaming-item img {
+    width: 100%;
+    padding:0px 20px;
+    box-sizing: border-box;
+  }
+  /* coding */
+  .skill {
+    width:85%;
+  }
+  .skill h1{
+    font-size: 20px;
+  }
+  .skill-container h3{
+    font-size: 15px;
+  }
+  .skill-item{
+    padding:15px 0px;
+  }
+  /* soccer */
+
+  .container{
+    width:85%;
+  }
+
+  .items h2{
+    font-size: 15px;
+  }
+
+  .items p{
+    font-size: 14px;
   }
 }
