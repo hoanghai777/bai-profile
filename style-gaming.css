@@ -116,7 +116,6 @@
   font-size: 21px;
 }
 
-
 /* gaming */
 
 .gaming{
@@ -146,6 +145,30 @@
 .gaming-item img{
   width:100%;
   height: 100%;
+}
+/* favorite-games */
+.favorite-games{
+  background-color: #526d82;
+  margin:0 auto;
+  width:70%;
+  border:#27374d hidden 2px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.favorite-games h1{
+  text-align: center;
+}
+.games{
+  display: flex;
+  padding:25px;
+}
+.games img{
+  width: 25%;
+  height: 300px;
+  box-sizing: border-box;
+}
+.games-text{
+  padding-left: 25px;
 }
 /* contact */
 

@@ -91,7 +91,26 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-
+/* profile */
+.profile{
+  background-color: #526d82;
+  width:50%;
+  margin:0 auto;
+  border: hidden 5px;
+  border-radius: 10px;
+  margin-bottom:100px;
+}
+.profile h1{
+  text-align: center;
+}
+.profile-text{
+  display: flex;
+  flex-direction: row;
+  padding:0 25px 25px 25px;
+}
+.info{
+  padding-left: 20px;
+}
 /* container */
 
 .container {
